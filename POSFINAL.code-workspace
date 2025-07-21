@@ -1,0 +1,58 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../auth"
+		},
+		{
+			"path": "../authentication"
+		},
+		{
+			"path": "../Config"
+		},
+		{
+			"path": "../Controllers"
+		},
+		{
+			"path": "../Database"
+		},
+		{
+			"path": "../Filters"
+		},
+		{
+			"path": "../Helpers"
+		},
+		{
+			"path": "../Language"
+		},
+		{
+			"path": "../Libraries"
+		},
+		{
+			"path": "../Models"
+		},
+		{
+			"path": "../public"
+		},
+		{
+			"path": "../tests"
+		},
+		{
+			"path": "../ThirdParty"
+		},
+		{
+			"path": "../uploads"
+		},
+		{
+			"path": "../vendor"
+		},
+		{
+			"path": "../Views"
+		},
+		{
+			"path": "../writable"
+		}
+	]
+}
