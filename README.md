@@ -1,68 +1,108 @@
-# CodeIgniter 4 Application Starter
+# 🍽️ Welcome to Red-Oscar POS Management System!
+The “Red Oscar POS Management System” is a comprehensive solution designed to streamline inventory tracking and management for Red Oscar Japanese-Filipino Food House. This system provides real-time visibility into stock levels, automates ordering processes, and helps minimize waste, ultimately improving efficiency and profitability.
 
-## What is CodeIgniter?
+## 🚀 What Red-Oscar Can Do For You
+- Provides a dashboard overview showing total orders, sales, refunds, and recent activity
+- Allows menu management including menu listing, adding new items, categorizing, and managing orders
+- Handles transaction management such as viewing transactions, accessing history, and processing refunds
+- Includes cashier management for overseeing cashier accounts and roles
+- Tracks activities through a detailed cashier activity log
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## 🧭 Ready to Start?
+Just click the provided link! It'll open in your web browser, and you'll see the Red-Oscar app appear.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+##  🛠️ How to Use the System
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+### 🔐 Logging In
+To get in, simply log in using your username and password on the system's main login page.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## 👥 Users Capabilities
+### 🛡️ Admin
+- As an Admin, you have comprehensive control over the system's management and configuration. Here's what you can do:
 
-## Installation & updates
+#### Menu Management
+- View Menu List: Browse all existing menu items.
+- Add New Menu Item: Create and add new offerings to your menu.
+- Manage Categories: Organize menu items into custom categories.
+- Oversee Orders: Monitor and manage incoming customer orders.
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+#### Transaction Management
+- Access & Manage Transactions: View, track, and manage all system transactions.
+#### Report Analytics
+- Generate Detailed Reports: Create and view comprehensive reports including daily, weekly, and monthly summaries.
+#### Print Z-Reports
+- Generate end-of-day Z-Reports for reconciliation.
+#### Cashier Management
+- Manage Cashier Accounts: Add, update, and oversee cashier user accounts.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+### 💳 Cashier
+- As a Cashier, your access is focused on daily operations and reporting tasks. Your capabilities include:
 
-## Setup
+####  Cashier Account Registration
+- To register for a Cashier account, you'll need to input your desired username, password, and confirm your password. Please note that your account will only be active and available for login once it has been approved by an Admin.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+#### Order Management
+- Handle and process customer orders.
+#### Transactions
+- Record new transactions and view past ones.
+#### My Reports
+- You can send daily reports directly to the Admin for easy oversight and record-keeping.
 
-## Important Change with index.php
+### 👤 For Everyone (Admins & Cashiers)
+#### Profile
+- Access and modify your personal user profile details.
+- Securely log out from your session at any time.
+  
+## ⚙️ System Configuration
+### System Dependencies
+These are the basic tools and environments your system needs to run:
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+#### 1. PHP
+ - Version: 7.4 or higher
+ - Must be installed on your machine and added to your system’s PATH
+#### 2. MySQL
+ - Used to store user accounts, product details, sales transactions, and POS-related records
+#### 3. Composer
+ - A PHP dependency manager used to install CodeIgniter 4 and required libraries
+#### 4. draw.io 
+ - Entity Relationship Diagrams (ERDs)
+ - System architecture diagrams
+#### 5. Figma
+ - Wireframes
+ - User interface (UI) mockups
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## ❓ FAQs
+### 🧠 General Questions
+Q: Can I use the system on any computer?
+A: Yes! Since it's a web application, you just need a web browser and an internet connection. Click the provided link, and you're good to go.
 
-## Repository Management
+Q: I forgot my password. What should I do?
+A: Currently, this system does not have a self-service password recovery. Please contact an Admin for assistance with your login credentials.
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+Q: Why can't I log in after registering as a Cashier?
+A: Your Cashier account needs to be approved by an Admin first. Once an Admin has approved your registration, you'll be able to log in.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+### 🛠️ Admin & Cashier Questions
+Q: How do I add a new cashier?
+A: As an Admin, you can add new cashier accounts under the "Cashier Management" section. You may approve or decline their registration in this section.
 
-## Server Requirements
+Q: Can I add new menu items as a Cashier?
+A: No, Cashiers cannot add new menu items. This feature is exclusive to Admin users. Your role is focused on managing orders and transactions with existing menu items.
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+Q: As an Admin, can I request reports from my Cashiers?
+A: Yes, as an Admin, you can request reports from your cashiers, and they will receive a notification in their accounts.
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+## 📞 Contact
+If you have any questions or need assistance with the Red-Oscar POS Inventory Management System, please contact us at:
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+- Phone Number: 09185336431 – Ms. Fria Palallos
+- Email: johnalbert.brillantes@tup.edu.ph
 
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+### Developers : 
+- John Albert Brillantes
+- Christian Delmo
+- Zander Musa
+- Mark Joseph Opiana
+- Fria Rica Palallos
+- Alexi Villaluna 
